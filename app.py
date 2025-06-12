@@ -1,5 +1,5 @@
-from flask import Flask, request, jsonify
 from median_voting_regressor import MedianVotingRegressor
+from flask import Flask, request, jsonify
 import joblib
 import numpy as np
 import pandas as pd
